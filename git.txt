@@ -1,0 +1,4 @@
+git init       para iniciar el git, y crea carpetas y todo lo necesario.
+git config --global user.name "NahuelMGithub" valido con mi git, diciendole que nombre quiero que use (hay que poner el nuestro)
+
+ git remote add origin https://github.com/NahuelMGithub/koanWeb.git  (uso la pagina que me da cuando cree el repositorio en git)
