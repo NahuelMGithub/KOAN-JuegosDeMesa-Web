@@ -1,38 +1,172 @@
 /*
-//////////////////////////////////////////////////////////////////////////////
-       Reiniciando estilo
-//////////////////////////////////////////////////////////////////////////////
+////////////////////////---------------TIPOGRAFIAS -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+*/
+/*
+titulos h2> 
+font-family: 'Lobster Two', sans-serif;
+
+
+tipografia para todo el contenido por defecto
+
+font-family: 'Lobster Two', sans-serif;
+
+
+*/
+
+
+/*
+////////////////////////---------------RESET -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 */
 
 *{
-    margin: 0;
+  margin: 0;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+
+h1, h2 {
+  font-family: 'Lobster Two', sans-serif;
+  color: white;
+}
+
+
+/*
+////////////////////////---------------HEADER -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+*/
+
+#navSuperior{
+  background-color: rgb(37, 37, 59);
+  height: auto;
+  align-content: end;
+}
+
+#header a{
+
+  color: white;
+}
+
+#navSuperior-ul{
+  background-color:  rgb(37, 37, 59);;
+
+}
+
+#navSuperior-ul li:hover a{
+  background-color: aqua;
+  color: black;
+}
+
+#navSuperior .navbar-toggler{
+  background-color: rgb(41, 190, 190);
+  
+}
+
+
+#navInferior{
+  background-color: rgb(41, 190, 190);
+  height: 140px;
+}
+
+
+.navInferior-form i{
+  border: 2px solid white;
+  height: 38px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+
+
+#navSuperior-imagenLogo{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+
+}
+
+
+/* Efectos en header */
+
+#header a:hover{
+  color: rgb(151, 90, 211);
+  text-decoration: underline;
+  transition: 0.6s;
+}
+
+
+
+/*
+////////////////////////---------------FOOTER -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+*/
+
+.footer, a{
+ 
+   color: white;
+  
+ }
+
+
+/*
+////////////////////////---------------Main -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Todas las centrales tienen caracteristicas comunes. 
+
+*/
+
+.main{
+  background-image: linear-gradient(
+    to bottom, rgb(37, 37, 59), rgb(41, 190, 190), rgb(37, 37, 59) );
+    width: 100%;
+    min-height: 100vh;
     
 }
-html{
-width: 100% ;
+
+#main h1, h2{
+  color: white;
 }
 
-/*
-//////////////////////////////////////////////////////////////////////////////
-        Estilo del Header
-//////////////////////////////////////////////////////////////////////////////
-*/
+
+
 
 
 /*
-//////////////////////////////////////////////////////////////////////////////
-        Estilo del 
-//////////////////////////////////////////////////////////////////////////////
+////////////////////////---------------PARTICULARES -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 */
 
+.carousel-item{
+  height: 700px;
+  width: 90%;
+  margin-left: 5%;
+  
 
+}
+/*               Carruseles con boostrap*/
+/* 
+#carouselExampleCaptions{
+  height: 250px;
+  border-radius: 20px;
+  width: 80%;
+  background-color: gray;
+  opacity: 30%;
+  margin-left: 5%;
+} */
 
-/* a partir de @media es un break point     */
-@media (max-width:600px){
-    #navInferior{
-        background-color: red;
-        color: black;
-        
-    }
+/*
+////////////////////////---------------Beack points -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Todos los puntos de corte. 
+Creo que lo manejo todo desde boostrap
 
+*/
+
+/* 
+//////////////////////////////////////////////////////////////////////////
+ES CLAVE QUE PONGA PROTOTIOS Y JUEGOS EN VENTA,  Con una transici[on de busqueda
+esto era solo para ver si el link me llevaba a ese punto. Esta bien*/
+#prototipos{
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Ancho completo */
+  background-color: #f1f1f1; /* Color de fondo del artículo */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del contenido */
 }

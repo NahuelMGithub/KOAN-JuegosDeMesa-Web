@@ -1,0 +1,54 @@
+
+//////////// NO es parte del proyecto, son tareas designadas para ir haciendo ////////////////////////
+
+
+--------------- Videos:
+Git 
+Boostrap
+Terminar el de Grid
+display
+Sas
+
+---------------------Para la web:
+
+Fondo 
+colores>  azul>   verde>   transparencia
+
+Tipografia externa: elegir 3
+
+Metodología Ben, usar nombres con este sistema. 
+
+Partes del proyecto:
+
+
+header: doble y con imagen a la izquierda
+footer
+cards
+Carousel
+
+Form
+para las consultas
+Form para sing up
+
+grid especial para tablero
+
+
+Efecto: hover
+
+Poner en carpeta todas las imagenes:
+Juegos
+Protos
+tablero
+
+Poner algún video, más que nada para practicar videos.
+
+
+---- 2da entrega
+
+
+Coder segunda preentrega-
+html, css basico y muck continuado. +
+de los 8 index, al menos 2 deben ser totalmente responsivos.
+uso correcto de boostrap, grillas, flex, indentado, metogologia ben, 
+hacer la entrega por git. 
+poner
