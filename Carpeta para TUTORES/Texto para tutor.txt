@@ -4,24 +4,31 @@ Descripción: Es una web de mi emprendimiento de Juegos de Mesa. Con unos socios
              y producidos por nosotros
 
 
-Link para ver el modelo en figma: 
+Link para ver el modelo en figma: https://www.figma.com/file/62q1gh0JHCjDmNayajLPYB/Untitled?type=design&node-id=0%3A1&mode=design&t=W1pgHNopKSh5XVLG-1
 Se encuentra público y es el que entregue. De todas formas, algunas cosas van modificadas, porque se me ocurrieron mientras hacía el curso.
 
 
 
 Explicación para tutor:
 
-Cosas hechas con el objetivo de mostrar aprendizaje:
+las secciones trabajadas son
+Index, Juegos y Nosotros
+
+Cosas hechas con el objetivo de aprender:
 Importé 2 tipografías de google fonts. una para titulos y otra para contenido general. 
 Use boostrap para header y footer y carrusel Ver: "Juegos en venta", "Prototipos" y Tiendas adheridas"
-Use grid para ubicar imagen y texto. Ver "Nosotros"
+Use grid para ubicar imagen y texto. Ver "Nosotros". 
 
-Objetivos del proyecto que no supe cumplir aún:
+
+
+Objetivos del proyecto que no supe cumplir aún: 
 
 Me hice un poco de lio con metologia ben y boostrap juntos, ya que tienen sus propias clases.
 No pude modificar caracteristicas del header en boostrap
 
-
-
 Tema Footer. No es el que tenía planeado, pero me gustó más este. 
 Aun asi, no pude organizar en el centro con boostrap al achicarse.
+
+en boostrap, al ir pasando las fotos en el carrusel:
+    Se ropme cuando no son del mismo tamaño. 
+    Mi objetivo es que las ultimas dos secciones del carrusel sean: Texto con alguna explicacion del juegos y un iframe con tutorial. 

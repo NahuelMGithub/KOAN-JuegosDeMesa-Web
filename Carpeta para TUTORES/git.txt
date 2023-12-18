@@ -8,3 +8,13 @@ git config --global user.name "NahuelMGithub" valido con mi git, diciendole que 
 
  git add .   agrego todo
  git commit -m "Act 1.0"           le agrego comentario (entre comillas el nombre que quiera)
+
+
+ Para compartir:
+
+Para el profesor> https://github.com/NahuelMGithub/koanWeb.git
+
+Para compartir git:
+
+
+...... anotar pasos

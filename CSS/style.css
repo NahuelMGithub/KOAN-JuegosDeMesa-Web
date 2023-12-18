@@ -26,6 +26,7 @@ font-family: 'Lobster Two', sans-serif;
 
 h1, h2 {
   font-family: 'Lobster Two', sans-serif;
+  font-size: 50px;
   color: white;
 }
 
@@ -34,10 +35,12 @@ h1, h2 {
 ////////////////////////---------------HEADER -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 */
 
+
 #navSuperior{
   background-color: rgb(37, 37, 59);
   height: auto;
   align-content: end;
+
 }
 
 #header a{
@@ -64,6 +67,9 @@ h1, h2 {
 #navInferior{
   background-color: rgb(41, 190, 190);
   height: 140px;
+   width: 100%;
+
+
 }
 
 
@@ -118,38 +124,68 @@ Todas las centrales tienen caracteristicas comunes.
     to bottom, rgb(37, 37, 59), rgb(41, 190, 190), rgb(37, 37, 59) );
     width: 100%;
     min-height: 100vh;
-    
+    color: white;
+
 }
 
-#main h1, h2{
-  color: white;
+.titulos{
+  display: flex;
+ justify-content: center;
+ padding: 15px;
+
 }
 
+.home_central-img{
 
-
+  width: 100%;
+  height: auto;
+}
 
 
 /*
 ////////////////////////---------------PARTICULARES -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 */
 
-.carousel-item{
-  height: 700px;
-  width: 90%;
-  margin-left: 5%;
-  
+
+/*               Carruseles con boostrap*/
+
+
+.carousel{
+  width: 80%;
+  margin-left: 10%;
 
 }
-/*               Carruseles con boostrap*/
-/* 
-#carouselExampleCaptions{
-  height: 250px;
-  border-radius: 20px;
-  width: 80%;
-  background-color: gray;
-  opacity: 30%;
-  margin-left: 5%;
-} */
+
+.carousel-item img{
+border: 2px solid white;
+width: 80%;
+
+}
+
+/*------------------ BTN de compra ----------------*/
+
+.btnCompras{
+padding: 10px;
+margin: 10px;
+}
+
+.btnCompras-p{
+  padding-top:  15px;
+  margin-left: 10px;
+}
+
+.btnCompras-btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color:rgb(53, 170, 142);
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
 
 /*
 ////////////////////////---------------Beack points -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -170,3 +206,73 @@ esto era solo para ver si el link me llevaba a ese punto. Esta bien*/
   padding: 20px; /* Espaciado interno */
   text-align: center; /* Alineación del contenido */
 }
+
+/* ///////////////////----------- NOSOTROS---////////////////
+Esta seccion la hice con grid especificamente para poder practicar
+
+hace lo que quiero, pero no exactamente. En la siguiente actualización lo voy a
+modificar para mejorarlo.  
+*/
+
+.NosotrosGrid{
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+ padding: 30px;
+ gap: 20px;
+ 
+ grid-template-areas: 
+  "nosotros_text nosotrs_img"
+   
+}
+
+.nosotros_text{
+
+padding: 15px 20px ;
+
+
+}
+
+.nosotros_text .h3{
+ margin-left: 40%;
+}
+
+.nosotrs_img{
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+
+  .NosotrosGrid{
+    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   padding: 10px;
+   gap: 10px;
+   
+   grid-template-areas:
+   "nosotros_text" 
+    " nosotrs_img";
+  }
+
+  .nosotrs_img{
+    width: auto;
+    overflow:scroll; 
+
+  }
+ 
+  }
+
+
+
+
+  .construccion{
+    background-image: url(/images/contruccion.jpg_large) ;
+    color: white;
+    min-height: 100vh;
+  }
+
+  .construccion{
+    padding: 30px 40%;
+    
+  }
+
