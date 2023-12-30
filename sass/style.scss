@@ -1,8 +1,90 @@
-
+@import "reset";
 @import "header";
 @import "footer";
+@import "main";
+@import "breakpoints";
+@import "pages/2-juegos/juegos";
+@import "pages/5-nosotros/nosotros";
 
 
-*{
-    background-attachment: fixed;
-}
+
+
+
+
+
+
+  
+  /*
+  ////////////////////////---------------PARTICULARES -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  */
+  
+  
+  /*               Carruseles con boostrap*/
+  
+  
+  .carousel{
+    width: 80%;
+    margin-left: 10%;
+  
+  }
+  
+  .carousel-item img{
+  border: 2px solid white;
+  width: 80%;
+  
+  }
+  
+  /*------------------ BTN de compra ----------------*/
+  
+  .btnCompras{
+  padding: 10px;
+  margin: 10px;
+  }
+  
+  .btnCompras-p{
+    padding-top:  15px;
+    margin-left: 10px;
+  }
+  
+  .btnCompras-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color:rgb(53, 170, 142);
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  
+  
+  
+
+  /* 
+  //////////////////////////////////////////////////////////////////////////
+  ES CLAVE QUE PONGA PROTOTIOS Y JUEGOS EN VENTA,  Con una transici[on de busqueda
+  esto era solo para ver si el link me llevaba a ese punto. Esta bien*/
+  #prototipos{
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Ancho completo */
+    background-color: #f1f1f1; /* Color de fondo del artículo */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del contenido */
+  }
+  
+  
+  
+  
+  
+    .construccion{
+      background-image: url(/images/contruccion.jpg_large) ;
+      color: white;
+      min-height: 100vh;
+    }
+  
+    .construccion{
+      padding: 30px 40%;
+      
+    }
+  
+  

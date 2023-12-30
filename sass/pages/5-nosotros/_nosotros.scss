@@ -1,0 +1,55 @@
+/* ///////////////////----------- NOSOTROS---////////////////
+  Esta seccion la hice con grid especificamente para poder practicar
+  
+  hace lo que quiero, pero no exactamente. En la siguiente actualización lo voy a
+  modificar para mejorarlo.  
+  */
+  
+  .NosotrosGrid{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 30px;
+   gap: 20px;
+   
+   grid-template-areas: 
+    "nosotros_text nosotrs_img"
+     
+  }
+  
+  .nosotros_text{
+  
+  padding: 15px 20px ;
+  
+  
+  }
+  
+  .nosotros_text .h3{
+   margin-left: 40%;
+  }
+  
+  .nosotrs_img{
+    width: 100%;
+  }
+  
+  @media (max-width: 1200px) {
+  
+    .NosotrosGrid{
+      display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr;
+     padding: 10px;
+     gap: 10px;
+     
+     grid-template-areas:
+     "nosotros_text" 
+      " nosotrs_img";
+    }
+  
+    .nosotrs_img{
+      width: auto;
+      overflow:scroll; 
+  
+    }
+   
+    }
+  

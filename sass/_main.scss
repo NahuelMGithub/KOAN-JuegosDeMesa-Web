@@ -1,0 +1,30 @@
+
+  /*
+  ////////////////////////---------------Main -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  Todas las centrales tienen caracteristicas comunes. 
+  
+  */
+  
+  .main{
+    background-image: linear-gradient(
+      to bottom, rgb(37, 37, 59), rgb(41, 190, 190), rgb(37, 37, 59) );
+      width: 100%;
+      min-height: 100vh;
+      color: white;
+  
+  }
+  
+  .titulos{
+    display: flex;
+   justify-content: center;
+   padding: 15px;
+  
+  }
+  
+  .home_central-img{
+  
+    width: 100%;
+    height: auto;
+  }
+  
+  
