@@ -9,6 +9,7 @@ git config --global user.name "NahuelMGithub" valido con mi git, diciendole que 
  git add .   agrego todo
  git commit -m "Act 1.0"           le agrego comentario (entre comillas el nombre que quiera)
 
+git push origin maim (main o el nombre que yo este usando, puede ser master, etc)
 
  Para compartir:
 

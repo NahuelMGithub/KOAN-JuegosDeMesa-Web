@@ -1,0 +1,32 @@
+/* puedo extender las propiedades. 
+es algo asi como el extend de las clases hijos en 
+lo q vi en Intro. 
+Creo que en JS, y C# usaba lo mismo, bien de objetos.
+@extend
+
+*/
+
+#box{
+.box__art1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.box__art2{
+    @extend .box__art1; 
+    @include flex-aling();
+}
+};
+
+/*
+Otra cosa que podemos hacer es un mixin, que es una suerte de objeto con propiedades de estilo
+Ademas, evidentemente es parametrizable, por lo q puede q sirva para agregar cosas puntuales
+
+*/
+
+@mixin flex-aling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
