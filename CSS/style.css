@@ -211,7 +211,7 @@ esto era solo para ver si el link me llevaba a ese punto. Esta bien*/
 }
 
 .construccion {
-  background-image: url(/images/contruccion.jpg_large);
+  background-image: url(../images/contruccion.jpg_large);
   color: white;
   min-height: 100vh;
 }
