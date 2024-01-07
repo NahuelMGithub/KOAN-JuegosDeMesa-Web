@@ -121,12 +121,60 @@
 
  <main class="main">
 
-  <div class="construccion">
-    <h3>Página en construcción </h3>
-    <p>Si, la página no está terminada, pero no puedes enojarte con el gatito, solo mira su carita</p>
+  <div class="fondo-log">
+
   </div>
 
+  <article class="contenedor-formulario"> 
     
+    <div class="formulario-login inicio">
+      <h2> Inicio Sesion </h2>
+    <form method="post"> <!--No se para q lo hace-->
+      <div class="username">
+        <label> Nombre de Usuario</label>
+        <input type="text" required>
+       </div>
+       <div class="password">
+        <label> Contraseña</label>
+        <input type="password" required>
+       </div>
+       <div class="recordar">Olvide mi contraseña</div>
+       <input type="submit" value="Iniciar">
+       <div class="registrarse">
+        <a href="#">Iniciar sesion con mi cuenta de google</a> <br>
+        <a href="#">Registrarme</a>
+       </div>
+    </form>
+    
+    </div>
+
+        
+    <div class="formulario-login registro">
+      <h2> Registrarme </h2>
+    <form method="post"> <!--No se para q lo hace-->
+      <div class="username">
+        <label> Nombre de Usuario</label>
+        <input type="text" required>
+       </div>
+       <div class="user_correo">
+        <label> Correo Electronico</label>
+        <input type="email" required>
+       </div>
+       <div class="password">
+        <label> Contraseña</label>
+        <input type="password" required> <br>
+        <label> Repetir contraseña</label>
+        <input type="password" required>
+       </div>
+      
+       <input type="submit" value="Crear Usuario">
+       
+    </form>
+    
+    </div>
+
+
+    </article>
 
   </main> 
 

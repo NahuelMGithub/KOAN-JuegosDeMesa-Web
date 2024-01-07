@@ -164,6 +164,63 @@ Creo que lo manejo todo desde boostrap
     overflow: scroll;
   }
 }
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor-formulario .formulario-login {
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  margin-top: auto;
+  margin-left: auto;
+  width: 800px;
+  height: auto;
+  text-align: left;
+  padding: 20px 100px;
+}
+.contenedor-formulario .formulario-login h2 {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+.contenedor-formulario .formulario-login input {
+  border-radius: 10px;
+}
+.contenedor-formulario .formulario-login label {
+  opacity: 50%;
+}
+
+.fondo-log {
+  background-image: url();
+}
+
+.contacto-container {
+  border: 2px solid white;
+  padding-top: 10px;
+  width: 80%;
+}
+.contacto-container h2 {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+.contacto-container .contacto-textBox {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacto-container .contacto_textBox-textArea {
+  width: 80%;
+  min-height: 200px;
+  border-radius: 5px;
+}
+.contacto-container input {
+  border-radius: 10px;
+}
+
 /*
 ////////////////////////---------------PARTICULARES -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 */
@@ -211,13 +268,17 @@ esto era solo para ver si el link me llevaba a ese punto. Esta bien*/
 }
 
 .construccion {
-  background-image: url(../images/contruccion.jpg_large);
+  background-image: url(/images/contruccion.jpg_large);
   color: white;
   min-height: 100vh;
 }
 
 .construccion {
   padding: 30px 40%;
+}
+
+.card {
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726);
 }
 
 /*# sourceMappingURL=style.css.map */

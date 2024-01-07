@@ -123,13 +123,57 @@
 
  <main class="main">
 
-  <div class="construccion">
-    <h3>Página en construcción </h3>
-    <p>Si, la página no está terminada, pero no puedes enojarte con el gatito, solo mira su carita</p>
+
+
+ 
+
+    <article class="contacto-container">
+      <h2>Contactanos</h2>
+      <div class="contacto">
+
+        
+        <label for="opciones">Por que nos contactas?</label>
+        <select id="opciones" name="Motivo" >
+          <option value="" selected>Motivo</option>
+          <option value="opcion1">Editar un juego </option>
+          <option value="opcion2">Vender sus juegos</option>
+          <option value="opcion3">Agregar un evento</option>
+          <!-- Puedes añadir más opciones según sea necesario -->
+        </select>
+    
+
+      </div>
+      <div class="contacto">
+        <label>Tu nombre</label>
+        <input type="text">
+      </div>
+      <div class="contacto">
+        <label>Tu correo electronico</label>
+        <input type="email">
+      </div>
+      <div class="contacto-textBox">
+        <textarea class="contacto_textBox-textArea"></textarea>
+      </div>
+      <div>
+        <label for="formFileLg" class="form-label">Adjuntar un archivo</label>
+        <input class="form-control form-control-lg" id="formFileLg" type="file">
+      </div>
+
+      <input type="submit" value="Enviar mensaje">
+    </article>
+
+
+
+
+
   </div>
 
 
-    
+
+
+
+
+
 
   </main> 
 

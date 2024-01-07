@@ -1,0 +1,30 @@
+.contacto-container{
+    border: 2px solid white;
+    padding-top: 10px;
+  
+    width: 80%;
+    h2{
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid silver;
+      
+    }
+
+    .contacto-textBox{
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+
+    }
+    .contacto_textBox-textArea{
+        width: 80%;
+        min-height:200px ;
+        border-radius: 5px;
+      
+        
+    }
+    input{
+        border-radius: 10px;
+                }
+}
