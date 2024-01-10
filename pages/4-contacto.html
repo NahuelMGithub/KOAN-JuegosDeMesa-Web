@@ -133,11 +133,11 @@
 
         
         <label for="opciones">Por que nos contactas?</label>
-        <select id="opciones" name="Motivo" >
-          <option value="" selected>Motivo</option>
-          <option value="opcion1">Editar un juego </option>
-          <option value="opcion2">Vender sus juegos</option>
-          <option value="opcion3">Agregar un evento</option>
+        <select id="opciones" name="Motivo" required class="input-contacto">
+          <option  value="" selected>Motivo</option>
+          <option  value="opcion1">Editar un juego </option>
+          <option  value="opcion2">Vender sus juegos</option>
+          <option  value="opcion3">Agregar un evento</option>
           <!-- Puedes añadir más opciones según sea necesario -->
         </select>
     
@@ -145,21 +145,21 @@
       </div>
       <div class="contacto">
         <label>Tu nombre</label>
-        <input type="text">
+        <input class="input-contacto" type="text">
       </div>
       <div class="contacto">
         <label>Tu correo electronico</label>
-        <input type="email">
+        <input class="input-contacto" type="email" >
       </div>
       <div class="contacto-textBox">
-        <textarea class="contacto_textBox-textArea"></textarea>
+        <textarea placeholder="Escribe tu mensaje" class="contacto_textBox-textArea"></textarea>
       </div>
       <div>
         <label for="formFileLg" class="form-label">Adjuntar un archivo</label>
         <input class="form-control form-control-lg" id="formFileLg" type="file">
       </div>
 
-      <input type="submit" value="Enviar mensaje">
+      <input class="contacto-enviar" type="submit" value="Enviar mensaje">
     </article>
 
 

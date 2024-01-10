@@ -1,0 +1,21 @@
+ //------------------ Elementos que uso para construir
+
+  // Las variables deben ser definidas antes de usarse.
+  $bordPrueba: 2px solid white;
+
+    .construccion{
+      background-image: url(../images/contruccion.jpg_large) ;
+      color: white;
+      min-height: 100vh;
+      // border: $bordPrueba; Si quisiera implementar el borde prueba es asi
+    }
+  
+    .construccion{
+      padding: 30px 40%;
+      
+    }
+  
+// en clase 13, muestra como darle sombras
+    .card{
+      box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726) ;
+    }

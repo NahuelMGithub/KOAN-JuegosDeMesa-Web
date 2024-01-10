@@ -1,0 +1,75 @@
+@mixin input-style() {
+    background-color: rgb(50, 50, 65);
+    color: rgb(236, 215, 215);
+  }
+
+
+.carrito{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100vh;
+   padding: 10px;
+   .btn-container{
+    display: flex;
+    justify-content: center;
+    .btn{
+        @include input-style();
+        margin-top: 15px;
+        
+   }
+
+
+   }
+
+   .carrito-table{
+    
+    width: 90%;
+    margin-left: 5%;
+   
+    tr{
+        display: flex;
+        margin: 15px;
+        justify-content: space-between;
+    }
+   }
+
+.carrito_listado-titulos{
+    padding: 5px;
+    border-bottom: 2px white solid;
+ 
+
+}
+
+
+
+
+
+
+
+    .carrito-resumen{
+       display: flex;
+       flex-direction: column; /* Alinea los elementos en columna */
+       justify-content: flex-start; /* Alinea los elementos al inicio */
+       align-items: flex-start; /* Alinea los elementos a la izquierda */
+        padding: 10px;
+        min-width: 150px;
+        border: 2px white solid;
+        margin-right: 10px;
+    }  
+
+}
+
+// si se achica la pantalla, lo hago en una sola columna
+
+@media (max-width: 1200px) {
+  
+    .carrito{
+      display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr;
+     padding: 10px;
+     gap: 10px;
+        }
+
+    }
+  

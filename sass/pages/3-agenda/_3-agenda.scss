@@ -1,0 +1,54 @@
+.galeria-eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  
+    .evento-contenedor {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 80%;
+      height: 400px;
+      border: 2px solid white;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.5);
+  
+      .contenido-evento {
+        display: flex;
+        height: 100%;
+      
+      }
+  
+      .info-evento {
+        flex: 1;
+        padding: 20px;
+        
+      }
+  
+      .info-item {
+        margin-bottom: 10px;
+      }
+  
+      .imagen-evento {
+       
+        object-fit: cover;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img{
+            border: 2px solid white;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .contenido-evento{
+      border: 2px solid red;
+       flex-direction: column;
+    }
+  }

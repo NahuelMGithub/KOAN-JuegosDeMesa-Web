@@ -120,12 +120,76 @@
 
  <main class="main">
 
-    
+    <h2>Carrito de compras</h2>
 
-      <div class="construccion">
-    <h3>Página en construcción </h3>
-    <p>Si, la página no está terminada, pero no puedes enojarte con el gatito, solo mira su carita</p>
-  </div>
+    <article class="carrito">
+      <section class="carrito-listado">
+         <table class="carrito-table" >
+              <thead >
+                  <tr class="carrito_listado-titulos">
+                      <th>Imagen</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                      <th>Cantidad</th>
+                      <th></th>
+                  </tr>
+                                    <tr >
+                      <th>Imagen</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                      <th>Cantidad</th>
+                      <th></th>
+                  </tr>
+                </tr>
+                <tr >
+  <th>Imagen</th>
+  <th>Nombre</th>
+  <th>Precio</th>
+  <th>Cantidad</th>
+  <th></th>
+</tr>
+              </thead>
+              <tbody></tbody>
+          </table>
+          <div class="btn-container">
+            <input class=" btn" type="submit" value="Agregar cupon ">
+          </div>
+          
+
+      </section>
+
+
+      <section class="carrito-resumen">
+        <p>Total del Carrito</p>
+  
+        <div class="carrito_resumen-envio">
+          <h3>Envio</h3>
+          <form>
+            <fieldset>
+              <legend>Selecciona una opción de envío:</legend>
+              <input type="radio" id="envio-estandar" name="opciones-envio" value="envio-estandar">
+              <label for="envio-estandar">Retirar en un Local </label><br>
+              
+              <input type="radio" id="envio-express" name="opciones-envio" value="envio-express">
+              <label for="envio-express">Envío a una sucursal del correo</label><br>
+              
+              <input type="radio" id="envio-urgente" name="opciones-envio" value="envio-urgente">
+              <label for="envio-urgente">Envío a una dirección[on</label><br>
+              <p>Total con envio</p>
+            </fieldset>
+            <div class="btn-container">
+              <input class="btn_container-btn btn" type="submit" value="Comprar ">
+            </div>
+ 
+      
+          </form>
+        </div>
+       
+
+      </section>
+    </article>
+
+
 
   </main> 
 
