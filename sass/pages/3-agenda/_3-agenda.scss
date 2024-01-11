@@ -45,10 +45,22 @@
       }
     }
   }
-  
-  @media (max-width: 1200px) {
+  // No hay caso, cuando es en celular, se ve por debajo la imagen
+  @media (max-width: 900px) {
+    .evento-contenedor{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   
+      padding-bottom: 20px;
+      height: 2350px;
+    }
     .contenido-evento{
-      border: 2px solid red;
+     
        flex-direction: column;
+  
+       padding-bottom: 20px;
+   
+
     }
   }
