@@ -5,9 +5,22 @@
 
     .construccion{
       background-image: url(../images/contruccion.jpg_large) ;
+      background-size:contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      height: 400px;
       color: white;
-      min-height: 100vh;
+
       // border: $bordPrueba; Si quisiera implementar el borde prueba es asi
+  
+      
+    }
+
+    @media (max-width: 768px) {
+      .contenedor {
+        height: 200px; /* Ajusta la altura para pantallas más pequeñas */
+      }
     }
   
     .construccion{
