@@ -9,46 +9,102 @@ Terminar el de Grid
 display
 Sas
 
+
+Clase 16  
+            Ver diapos
+Clase 17  Video: /
+            Ver diapos
+
+
+            se rompe el widh en
+            agenda
+            contacto
+            tiendas
+
+
 ---------------------Para la web:
 
-Fondo 
-colores>  azul>   verde>   transparencia
+Inicio:
+    Novedades pasar a Tablero grid
 
-Tipografia externa: elegir 3
+Juegos:
+    - Texto resumen
+    -Galeria> Construir modelo distinto
 
-Metodología Ben, usar nombres con este sistema. 
+Agenda:
+    - Estructura responsive
+    - Conenido
+    -Foto mas grande
 
-Partes del proyecto:
-
-
-header: doble y con imagen a la izquierda
-footer
-cards
-Carousel
-
-Form
-para las consultas
-Form para sing up
-
-grid especial para tablero
+Contacto:
+    - Imagen de Fondo
+    - Mismo efecto de blur 
+    - alinear  lebels
 
 
-Efecto: hover
 
-Poner en carpeta todas las imagenes:
-Juegos
-Protos
-tablero
-
-Poner algún video, más que nada para practicar videos.
+Tiendas:
+    - Estructura de tienda---------LISTO
+    -Fondo-------------------------LISTO
 
 
----- 2da entrega
+carrito:
+    - darle bordes
+    -Meter algun fondo
 
 
-Coder segunda preentrega-
-html, css basico y muck continuado. +
-de los 8 index, al menos 2 deben ser totalmente responsivos.
-uso correcto de boostrap, grillas, flex, indentado, metogologia ben, 
-hacer la entrega por git. 
-poner
+Nosotros:
+    - contendio
+    -Agragar fotos particulares y efectos
+
+Particulares
+
+Sesion:
+    - retocar margin
+    - ver por q falla al cargar
+
+
+//------------------
+
+Hola Nahuel, muchas gracias por realizar la entrega🙂
+
+
+
+Excelente, veo que estas a full con tu proyecto, eso es super bueno, quiere decir que tenes incentivo y por eso vas un poco más allá asi que muy bien!
+
+
+
+Visualizando tu entrega veo que en cuanto a la organización de archivos es relativamente correcto💪 Se puede ver que tenes 2 carpetas de css, fijate de solo dejar el correcto, para evitar confusiones.
+
+
+
+El uso de etiquetas semanticas es buena en general💪
+
+
+
+En cuanto al SEO se ve que solo el index tiene las metaetiquetas, recordá que todas las paginas deben tenerlo. En cuanto a los alt de las imagenes, deben tener una descripción breve, no puede estar vacía ni con palabras repetidas.
+
+
+
+En cuanto a sass es correcto 💪
+
+
+
+En cuanto a la vista desktop se ve muy bien💪
+
+
+
+En cuanto a la vista mobile, se ven bien la mayoria de las paginas, solo las paginas de agenda tiene un pequeño scroll lateral en la resolución 375px que es donde lo miro, puede que lo genere las animaciones que hace que venga
+ de los costados las cards, fijate si se soluciona poniendole un overflow hidden en el contenedor de esas cards. Y tambien la pagina de contacto y nosotros que se desborda lateralmente.
+
+
+
+Tambien deberias de sacar los textos de relleno y cambiarlo por otros que sean mas realistas, podes usar chatGPT.
+
+
+
+Es una buena entrega, a seguir buscando detalles por mejorar para ir por la mejor nota posible en la entrega final💪🚀
+
+
+
+Saludos!

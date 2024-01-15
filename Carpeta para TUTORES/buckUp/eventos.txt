@@ -21,17 +21,23 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <!-- links de AOS Scroll animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
   <!-- link para css creado por mi. -->
   <link rel="stylesheet" href="../CSS/style.css">
 
   <!--  Libreria font awesome> iconos para header -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+  
 
 
 </head>
 
 <body>
+
 
   <header id="header">
 
@@ -119,80 +125,166 @@
   </header>
 
  <main class="main">
- <section class="carrito-contenedor"> 
-    <h2>Carrito de compras</h2>
 
-    <article class="carrito">
-      <section class="carrito-listado">
-         <table class="carrito-table" >
-              <thead >
-                  <tr class="carrito_listado-titulos">
-                      <th>Imagen</th>
-                      <th>Nombre</th>
-                      <th>Precio</th>
-                      <th>Cantidad</th>
-                      <th></th>
-                  </tr>
-                                    <tr >
-                      <th>Imagen</th>
-                      <th>Nombre</th>
-                      <th>Precio</th>
-                      <th>Cantidad</th>
-                      <th></th>
-                  </tr>
-                </tr>
-                <tr >
-  <th>Imagen</th>
-  <th>Nombre</th>
-  <th>Precio</th>
-  <th>Cantidad</th>
-  <th></th>
-</tr>
-              </thead>
-              <tbody></tbody>
-          </table>
-          <div class="btn-container">
-            <input class=" btn" type="submit" value="Agregar cupon ">
-          </div>
-          
+  <section class="galeria-eventos"> 
 
-      </section>
+<article  data-aos="fade-right" class="evento-contenedor left">
 
-
-      <section class="carrito-resumen">
-        <p>Total del Carrito</p>
-  
-        <div class="carrito_resumen-envio">
-          <h3>Envio</h3>
-          <form>
-            <fieldset>
-              <legend>Selecciona una opción de envío:</legend>
-              <input type="radio" id="envio-estandar" name="opciones-envio" value="envio-estandar">
-              <label for="envio-estandar">Retirar en un Local </label><br>
-              
-              <input type="radio" id="envio-express" name="opciones-envio" value="envio-express">
-              <label for="envio-express">Envío a una sucursal del correo</label><br>
-              
-              <input type="radio" id="envio-urgente" name="opciones-envio" value="envio-urgente">
-              <label for="envio-urgente">Envío a una dirección[on</label><br>
-              <p>Total con envio</p>
-            </fieldset>
-            <div class="btn-container">
-              <input class="btn_container-btn btn" type="submit" value="Comprar ">
-            </div>
- 
-      
-          </form>
+ <div class="contenido-evento">
+      <div class="info-evento">
+        <div class="info-item">
+          <strong>Nombre:</strong> Nombre del evento
         </div>
-       
+        <div class="info-item">
+          <strong>Fecha:</strong> Fecha del evento
+        </div>
+        <div class="info-item">
+          <strong>Descripción:</strong> Una breve descripción del evento
+        </div>
+        <div class="ubicacion-item">
+          <strong>Ubicacion:</strong>  <a href="">Cómo llegar</a>
+        </div>
+   </div>
+      <div class="imagen-evento">
+        
+       <img src="../images/enjm.jpg" alt="Nombre del evento">
+      </div>
+    </div>
 
-      </section>
-    </article>
+</article>
 
-  </section>
+<article  data-aos="fade-left" class="evento-contenedor right">
+ 
+  <div class="contenido-evento">
+    <div class="info-evento">
+      <div class="info-item">
+        <strong>Nombre:</strong> Nombre del evento
+      </div>
+      <div class="info-item">
+        <strong>Fecha:</strong> Fecha del evento
+      </div>
+      <div class="info-item">
+        <strong>Descripción:</strong> Una breve descripción del evento
+      </div>
+      <div class="ubicacion-item">
+        <strong>Ubicacion:</strong>  <a href="">Cómo llegar</a>
+      </div>
+ </div>
+    <div class="imagen-evento">
+      
+     <img src="../images/enjm.jpg" alt="Nombre del evento">
+    </div>
+  </div>
+
+
+</article>
+
+<article  data-aos="fade-right" class="evento-contenedor left">
+ 
+  <div class="contenido-evento">
+    <div class="info-evento">
+      <div class="info-item">
+        <strong>Nombre:</strong> Nombre del evento
+      </div>
+      <div class="info-item">
+        <strong>Fecha:</strong> Fecha del evento
+      </div>
+      <div class="info-item">
+        <strong>Descripción:</strong> Una breve descripción del evento
+      </div>
+      <div class="ubicacion-item">
+        <strong>Ubicacion:</strong>  <a href="">Cómo llegar</a>
+      </div>
+ </div>
+    <div class="imagen-evento">
+      
+     <img src="../images/enjm.jpg" alt="Nombre del evento">
+    </div>
+  </div>
+
+
+</article>
+
+<article  data-aos="fade-left" class="evento-contenedor right">
+ 
+  <div class="contenido-evento">
+    <div class="info-evento">
+      <div class="info-item">
+        <strong>Nombre:</strong> Nombre del evento
+      </div>
+      <div class="info-item">
+        <strong>Fecha:</strong> Fecha del evento
+      </div>
+      <div class="info-item">
+        <strong>Descripción:</strong> Una breve descripción del evento
+      </div>
+      <div class="ubicacion-item">
+        <strong>Ubicacion:</strong>  <a href="">Cómo llegar</a>
+      </div>
+ </div>
+    <div class="imagen-evento">
+      
+     <img src="../images/enjm.jpg" alt="Nombre del evento">
+    </div>
+  </div>
+
+
+</article>
+
+<article  data-aos="fade-right" class="evento-contenedor left">
+ 
+  <div class="contenido-evento">
+    <div class="info-evento">
+      <div class="info-item">
+        <strong>Nombre:</strong> Nombre del evento
+      </div>
+      <div class="info-item">
+        <strong>Fecha:</strong> Fecha del evento
+      </div>
+      <div class="info-item">
+        <strong>Descripción:</strong> Una breve descripción del evento
+      </div>
+      <div class="ubicacion-item">
+        <strong>Ubicacion:</strong>  <a href="">Cómo llegar</a>
+      </div>
+ </div>
+    <div class="imagen-evento">
+      
+     <img src="../images/enjm.jpg" alt="Nombre del evento">
+    </div>
+  </div>
+
+
+</article>
+
+<article  data-aos="fade-left" class="evento-contenedor right">
+ 
+  <article class="contenido-evento">
+    <section class="info-evento">
+      <div class="info-item">
+        <strong>Nombre:</strong> Nombre del evento
+      </div>
+      <div class="info-item">
+        <strong>Fecha:</strong> Fecha del evento
+      </div>
+      <div class="info-item">
+        <strong>Descripción:</strong> Una breve descripción del evento
+      </div>
+      <div class="ubicacion-item">
+        <strong>Ubicacion:</strong>  <a href="">Cómo llegar</a>
+      </div>
+ </section>
+    <div class="imagen-evento">
+      
+     <img src="../images/enjm.jpg" alt="Nombre del evento">
+    </div>
+  </article>
+
+</article>
+
+  
 
   </main> 
-
   <footer class="footer container-fluid">
     <div class="row p-5 pb-4 bg-black">
       <article class="col-xs-12 col-md-6 col-lg-3">
@@ -235,12 +327,18 @@
   </footer>
 
 
-
 </body>
 
 <!-- /////////////////////////------------------- Links de scripts -------------------\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <!--Scrooll animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </html>

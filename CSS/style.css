@@ -4,6 +4,10 @@
   font-family: "ABeeZee", sans-serif;
 }
 
+main {
+  width: 100%;
+}
+
 h1, h2 {
   font-family: "Lobster Two", sans-serif;
   font-size: 50px;
@@ -277,67 +281,82 @@ Creo que lo manejo todo desde boostrap
     flex-direction: column;
   }
 }
-.galeria-eventos {
+.contenedor-eventos {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   gap: 40px;
   width: 100%;
   min-height: 100vh;
   padding-bottom: 100px;
-  background-image: url("../images/ENJM.png"); /* Reemplazar po una bueba imagen */
+  background-image: url("../images/enjm5.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-.galeria-eventos .evento-contenedor {
-  color: black;
-  margin-top: 40px;
-  margin-bottom: 40px;
+.contenedor-eventos .tienda {
+  margin-top: 60px;
+  height: 600px;
   width: 80%;
-  height: 400px;
-  border: 2px solid white;
   border-radius: 10px;
-  backdrop-filter: blur(90px);
-  background: rgba(255, 255, 255, 0.1);
-}
-.galeria-eventos .evento-contenedor .contenido-evento {
+  border: 4px solid black;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
   display: flex;
-  height: 100%;
-}
-.galeria-eventos .evento-contenedor .info-evento {
-  flex: 1;
-  padding: 20px;
-}
-.galeria-eventos .evento-contenedor .info-item {
-  margin-bottom: 10px;
-}
-.galeria-eventos .evento-contenedor .imagen-evento {
-  object-fit: cover;
-  flex: 1;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
-.galeria-eventos .evento-contenedor .imagen-evento img {
-  border: 2px solid white;
+.contenedor-eventos .tienda .detallesEvento h2 {
+  color: black;
+}
+.contenedor-eventos .tienda-info {
+  height: 90%;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+.contenedor-eventos .tienda-galery {
+  margin: 10px;
+  height: 90%;
+  width: 60%;
+  overflow: hidden;
+}
+.contenedor-eventos .tienda-galery img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 5px;
+}
+.contenedor-eventos .tienda-galery .carousel_item-mapa {
+  width: 100%;
+  height: 100%;
+}
+.contenedor-eventos .linkEmail, .contenedor-eventos .linkOrganizacion {
+  margin: 30px;
+  border-radius: 10px;
+  color: #000;
+}
+.contenedor-eventos .linkEmail a, .contenedor-eventos .linkOrganizacion a {
+  color: black;
+}
+@media (max-width: 3000px) {
+  .contenedor-eventos .tienda {
+    width: 95%;
+    flex-direction: column;
+    border: 4px solid white;
+    height: auto;
+  }
+  .contenedor-eventos .tienda .tienda-galery {
+    width: 100%;
+    height: auto;
+  }
+  .contenedor-eventos .tienda .tienda-info {
+    width: 90%;
+    height: auto;
+  }
 }
 
-@media (max-width: 900px) {
-  .evento-contenedor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-    height: 2350px;
-  }
-  .contenido-evento {
-    flex-direction: column;
-    padding-bottom: 20px;
-  }
-}
 .contacto-container {
   display: flex;
   flex-direction: column;
@@ -418,6 +437,78 @@ Creo que lo manejo todo desde boostrap
     overflow: scroll;
   }
 }
+.contenedor-tiendas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  background-image: url("../images/mapa.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.contenedor-tiendas .tienda {
+  margin-top: 60px;
+  height: 600px;
+  width: 80%;
+  border-radius: 10px;
+  border: 4px solid black;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+}
+.contenedor-tiendas .tienda-info {
+  height: 90%;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+.contenedor-tiendas .tienda-galery {
+  margin: 10px;
+  height: 90%;
+  width: 60%;
+  overflow: hidden;
+}
+.contenedor-tiendas .tienda-galery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contenedor-tiendas .tienda-galery .carousel_item-mapa {
+  width: 100%;
+  height: 100%;
+}
+.contenedor-tiendas .linkEmail {
+  margin: 30px;
+  border-radius: 10px;
+}
+.contenedor-tiendas .linkEmail a {
+  color: black;
+}
+@media (max-width: 1300px) {
+  .contenedor-tiendas .tienda {
+    width: 95%;
+    flex-direction: column;
+    border: 4px solid white;
+    height: auto;
+  }
+  .contenedor-tiendas .tienda .tienda-galery {
+    width: 100%;
+    height: auto;
+  }
+  .contenedor-tiendas .tienda .tienda-info {
+    width: 90%;
+    height: auto;
+  }
+}
+
 .form-contenedor {
   display: flex;
   align-items: center;
@@ -474,59 +565,39 @@ Creo que lo manejo todo desde boostrap
   margin-left: 40%;
 }
 
-@media screen and (max-width: 1200px) {
-  .form-log {
-    width: 90%;
-    border: 2px solid red;
-  }
-}
-.carrito {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 100vh;
-  padding: 10px;
-}
-.carrito .btn-container {
+.carrito-contenedor {
   display: flex;
+  align-items: center;
   justify-content: center;
-}
-.carrito .btn-container .btn {
-  background-color: rgb(50, 50, 65);
-  color: rgb(236, 215, 215);
-  margin-top: 15px;
-}
-.carrito .carrito-table {
-  width: 90%;
-  margin-left: 5%;
-}
-.carrito .carrito-table tr {
-  display: flex;
-  margin: 15px;
-  justify-content: space-between;
-}
-.carrito .carrito_listado-titulos {
-  padding: 5px;
-  border-bottom: 2px white solid;
-}
-.carrito .carrito-resumen {
-  display: flex;
-  flex-direction: column; /* Alinea los elementos en columna */
-  justify-content: flex-start; /* Alinea los elementos al inicio */
-  align-items: flex-start; /* Alinea los elementos a la izquierda */
-  padding: 10px;
-  min-width: 150px;
-  border: 2px white solid;
-  margin-right: 10px;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 100px;
+  background-image: url("../images/tiendaMedieval.png"); /* Reemplazar po una bueba imagen */
+  background-size: cover;
+  background-position: center;
 }
 
-@media (max-width: 1200px) {
-  .carrito {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    padding: 10px;
-    gap: 10px;
-  }
+.carrito {
+  width: 80%;
+  height: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.carrito .carrito-listado {
+  width: 60%;
+  padding: 10px;
+}
+.carrito .carrito-resumen {
+  border: 1px solid white;
+  border-radius: 1px;
+  width: auto;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

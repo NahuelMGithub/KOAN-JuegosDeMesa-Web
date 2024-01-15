@@ -1,0 +1,92 @@
+
+.contenedor-tiendas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+
+    
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    background-image: url('../images/mapa.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .tienda{
+        margin-top: 60px;
+        height: 600px;
+         width: 80%; 
+        border-radius: 10px;
+        border: 4px solid black;
+        border-radius: 10px;
+
+
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.2);
+
+        display: flex;
+        align-items: center;
+    }
+
+    .tienda-info{
+      
+        height: 90%;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        color: black;
+
+    }
+
+    .tienda-galery{
+
+        margin: 10px;
+        height: 90%;
+        width: 60%;
+ 
+      
+        overflow: hidden;
+        img{
+         
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+       
+        }
+        .carousel_item-mapa{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .linkEmail{
+               margin: 30px;
+            border-radius: 10px; 
+            a{color: black; } 
+            
+    }   
+
+    @media  (max-width: 1300px) {
+ 
+ 
+        .tienda {
+            width: 95%;
+            flex-direction: column;
+          border: 4px solid white;
+          height: auto;
+          .tienda-galery{
+            width: 100%;
+            height: auto;
+          }
+          .tienda-info{
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+}
+
+  

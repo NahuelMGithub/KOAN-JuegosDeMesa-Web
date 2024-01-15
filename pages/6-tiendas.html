@@ -21,6 +21,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+
+  <!-- links de AOS Scroll animation  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- link para css creado por mi. -->
   <link rel="stylesheet" href="../CSS/style.css">
 
@@ -122,11 +126,113 @@
 
   <main class="main">
 
-  <div class="construccion">
-    <h3>Página en construcción </h3>
-    <p>Si, la página no está terminada, pero no puedes enojarte con el gatito, solo mira su carita</p>
+ 
+
+  <div class="contenedor-tiendas">
+ <div class="tienda" data-aos="fade-left">
+      <section class="tienda-info">
+<h3>Oso Blanco</h3>
+<article>
+  <p>
+    La Cafetería Oso Blanco, en Mar del Plata, es un acogedor rincón que destaca por su cálido ambiente y excelente atención. Con una decoración encantadora y un personal amable, ofrece a los visitantes una experiencia relajante y acogedora. La cuidada selección de bebidas y deliciosos aperitivos se complementa con un servicio atento, convirtiendo a Oso Blanco en el lugar ideal para disfrutar de momentos placenteros con amigos o simplemente relajarse con una taza de café.</p>
+</article>
+      </section>
+      <section class="tienda-galery">
+        <div id="carouselUno" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/oso1.jpg" class="d-block w-100" alt="OsoBlanco">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/oso2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <iframe class="carousel_item-mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12575.036971037247!2d-57.5542948!3d-38.0060758!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584df09f91dbcdd%3A0xb5c95e9a0c22a42f!2sOso%20Blanco%20caf%C3%A9%20de%20especialidad!5e0!3m2!1ses!2sar!4v1705196166918!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselUno" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselUno" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </section>
+    </div>
+
+    <div class="tienda" data-aos="fade-left">
+      <section class="tienda-info">
+<h3>Torre de Juegos</h3>
+<article>
+  <p> Descubre en La Plata la Torre de Juegos, tu club dedicado a la pasión por los juegos de mesa. Compra títulos exclusivos y únete a emocionantes partidas. Explora nuestro extenso catálogo y encuentra la diversión perfecta para ti. Desde clásicos hasta las últimas novedades, ofrecemos experiencias para todos los gustos. Sumérgete en un ambiente acogedor y comparte momentos inolvidables con amigos y nuevos compañeros jugadores. ¡La Torre de Juegos es el lugar donde la diversión cobra vida! Visítanos y descubre la emoción de los juegos de mesa como nunca antes. ¡Te esperamos para vivir juntos la magia del juego    </p>
+</article>
+      </section>
+      <section class="tienda-galery">
+        <div id="carruselDos" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/torre1.png" class="d-block w-100" alt="OsoBlanco">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/torre2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <iframe  class="carousel_item-mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d52343.03503692947!2d-57.9531703!3d-34.9205082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e743b34bcd1d%3A0xe80b5483618a3fc6!2sTORRE%20DE%20JUEGOS!5e0!3m2!1ses!2sar!4v1705267012728!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselDos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselDos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </section>
+    </div>
+
+    <div class="tienda" data-aos="fade-left">
+      <section class="tienda-info">
+<h3>Homo ludens</h3>
+<article>
+  <p>
+    Homo Ludens, la juguetería emblemática de Bahía Blanca, con cinco tiendas repletas de diversión. Sumérgete en un universo de juegos de alta calidad para todas las edades. Descubre nuestra amplia gama de juguetes educativos, juegos de mesa, muñecas y mucho más. En cada tienda, encontrarás un equipo apasionado listo para asesorarte y garantizar sonrisas. Desde clásicos atemporales hasta las últimas tendencias, Homo Ludens es el destino ideal para regalos especiales y momentos inolvidables. ¡Explora la magia de jugar en nuestras tiendas y haz de cada día una aventura! Ven a Homo Ludens, donde la diversión se convierte en un arte.</p>
+</article>
+      </section>
+      <section class="tienda-galery">
+        <div id="carruselTres" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/homo1.jpg" class="d-block w-100" alt="OsoBlanco">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/homo2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <iframe class="carousel_item-mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12455.078166452975!2d-62.2415889!3d-38.7001377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcaffcd224ed%3A0xf340a2a0239248fd!2sCasa%20Homo%20Ludens!5e0!3m2!1ses!2sar!4v1705266739804!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselTres" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselTres" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </section>
+    </div>
+    <button class="linkEmail"> <a href="4-contacto.html">  Queres vender nuestro juegos?</a> </button>
   </div>
 
+ 
   </main> 
 
   <footer class="footer container-fluid">
@@ -177,5 +283,13 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <!--Scrooll animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
 
 </html>
