@@ -24,38 +24,14 @@ Clase 17  Video: /
 
 ---------------------Para la web:
 
-Inicio:
-    Novedades pasar a Tablero grid
-
-Juegos:
-    - Texto resumen
-    -Galeria> Construir modelo distinto
-
-Agenda:
-    - Estructura responsive
-    - Conenido
-    -Foto mas grande
-
-Contacto:
-    - Imagen de Fondo
-    - Mismo efecto de blur 
-    - alinear  lebels
-
-
-
-Tiendas:
-    - Estructura de tienda---------LISTO
-    -Fondo-------------------------LISTO
-
 
 carrito:
     - darle bordes
     -Meter algun fondo
+    -Estruturar mejor
 
 
-Nosotros:
-    - contendio
-    -Agragar fotos particulares y efectos
+
 
 Particulares
 
@@ -64,47 +40,66 @@ Sesion:
     - ver por q falla al cargar
 
 
-//------------------
+//------------------- LISTOS:----------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+Agenda:
+    - Estructura responsive---------LISTO
+    - Conenido----------------------LISTO
+    -Foto mas grande----------------LISTO
 
-Hola Nahuel, muchas gracias por realizar la entrega🙂
+Inicio:
+    Novedades pasar a Tablero grid
+    o!!!!
+    poner las novedades las tarjetas q hice, agregar
+    3, poner los links y que se alineen bien
 
-
-
-Excelente, veo que estas a full con tu proyecto, eso es super bueno, quiere decir que tenes incentivo y por eso vas un poco más allá asi que muy bien!
-
-
-
-Visualizando tu entrega veo que en cuanto a la organización de archivos es relativamente correcto💪 Se puede ver que tenes 2 carpetas de css, fijate de solo dejar el correcto, para evitar confusiones.
-
-
-
-El uso de etiquetas semanticas es buena en general💪
-
-
-
-En cuanto al SEO se ve que solo el index tiene las metaetiquetas, recordá que todas las paginas deben tenerlo. En cuanto a los alt de las imagenes, deben tener una descripción breve, no puede estar vacía ni con palabras repetidas.
-
-
-
-En cuanto a sass es correcto 💪
+Juegos:
+    - Texto resumen
+    -Galeria> C
+    onstruir modelo distinto --- Para lo ultimo
 
 
+Contacto:
+    - Imagen de Fondo--------------LISTO
+    - Mismo efecto de blur--------LISTO
+    - alinear  lebels-------------LISTO
 
-En cuanto a la vista desktop se ve muy bien💪
+Solucionar responsive
+-agenda-------------LISTO
+-contacto-----------LISTO
+-tiendas-----------LISTO
 
-
-
-En cuanto a la vista mobile, se ven bien la mayoria de las paginas, solo las paginas de agenda tiene un pequeño scroll lateral en la resolución 375px que es donde lo miro, puede que lo genere las animaciones que hace que venga
- de los costados las cards, fijate si se soluciona poniendole un overflow hidden en el contenedor de esas cards. Y tambien la pagina de contacto y nosotros que se desborda lateralmente.
-
-
-
-Tambien deberias de sacar los textos de relleno y cambiarlo por otros que sean mas realistas, podes usar chatGPT.
-
-
-
-Es una buena entrega, a seguir buscando detalles por mejorar para ir por la mejor nota posible en la entrega final💪🚀
+Tiendas:
+    - Estructura de tienda---------LISTO
+    -Fondo-------------------------LISTO
 
 
+Nosotros:
+    - contendio---------LISTO
+    -Agragar fotos particulares y efectos -- tal vez luego, asi me gusta
 
-Saludos!
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+-------------------------------------------Falta:
+
+carrito
+Sesion
+SEO
+CCS de mas borrar
+alt de las imagenes, deben tener una descripción breve, no puede estar vacía ni con palabras repetidas.
+
+
+
+
+
+
+
+
+
+
+

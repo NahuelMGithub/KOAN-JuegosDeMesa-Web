@@ -7,8 +7,8 @@
   gap: 40px;
 
 
-  width: 100%;
-  min-height: 100vh;
+
+  
   padding-bottom: 100px;
   background-image: url('../images/enjm5.jpg'); 
   background-size: cover;
@@ -16,6 +16,7 @@
   background-attachment: fixed;
 
   .tienda{
+
       margin-top: 60px;
       height: 600px;
        width: 80%; 
@@ -32,6 +33,8 @@
 
       .detallesEvento{
         h2{
+          width: auto;
+          height: auto;
           color: black;
         }
       }
@@ -67,18 +70,20 @@
           height: 100%;
       }
   }
-
+ 
   .linkEmail, .linkOrganizacion{
+    width: auto;
+    height: auto;
              margin: 30px;
           border-radius: 10px; 
           color: #000;
           a{color: black; } 
           
   }   
-  @media (max-width: 3000px) {
-
+  @media (max-width: 1300px) {
 
     .tienda {
+
         width: 95%;
         flex-direction: column;
       border: 4px solid white;

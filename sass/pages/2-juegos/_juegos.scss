@@ -7,13 +7,20 @@
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: auto;
 
+   .resumen-seccion{
+   
+    display: flex;
+       
+   }
     .card{
         margin: 25px;
         position: relative;
-        width: 300px;
+        min-width: 300px;
         height: 350px;
         background-color: rgb(9, 74, 136);
 
@@ -89,10 +96,13 @@
     transform: perspective(600px) rotateY(360deg);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 
     .resumenDeJuegos{
         flex-direction: column;
+        .resumen-seccion{
+            flex-direction: column;
+        }
     }
 
     }
