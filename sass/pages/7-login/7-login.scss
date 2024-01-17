@@ -27,6 +27,7 @@
 
     .form-log{
         height: auto;
+        min-height: 180px;
         padding: 5px;
         margin-top: 10%;
         display: flex;
@@ -44,6 +45,7 @@
         
     }
     .form {
+     
         display: flex;
         align-items: center;
         justify-content: center;

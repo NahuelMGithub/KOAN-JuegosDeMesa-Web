@@ -206,7 +206,6 @@ Creo que lo manejo todo desde boostrap
 }
 
 .resumenDeJuegos {
-  background-color: rgb(9, 74, 136);
   color: white;
   width: 100%;
   height: auto;
@@ -224,7 +223,7 @@ Creo que lo manejo todo desde boostrap
   position: relative;
   min-width: 300px;
   height: 350px;
-  background-color: rgb(9, 74, 136);
+  background-color: rgba(9, 74, 136, 0);
 }
 .resumenDeJuegos .card .face {
   position: absolute;
@@ -580,6 +579,7 @@ Creo que lo manejo todo desde boostrap
 }
 .form-contenedor .form-log {
   height: auto;
+  min-height: 180px;
   padding: 5px;
   margin-top: 10%;
   display: flex;
@@ -622,20 +622,25 @@ Creo que lo manejo todo desde boostrap
   margin-left: 40%;
 }
 
-.carrito-contenedor {
+.carrito-pequeño {
+  display: none;
+}
+
+.carrito-fondo {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   padding-bottom: 100px;
   background-image: url("../images/tiendaMedieval.png"); /* Reemplazar po una bueba imagen */
   background-size: cover;
   background-position: center;
 }
 
-.carrito {
+.carrito-contenedor {
   width: 80%;
   height: 80%;
   padding: 10px;
@@ -646,15 +651,132 @@ Creo que lo manejo todo desde boostrap
   gap: 10px;
   justify-content: center;
 }
-.carrito .carrito-listado {
+.carrito-contenedor .carrito-listado {
   width: 60%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
-.carrito .carrito-resumen {
+.carrito-contenedor .carrito-listado .carrito-table th {
+  padding: 30px;
+}
+.carrito-contenedor .carrito-listado .carrito-table .carrito_listado-titulos {
+  height: auto;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  padding: 15px;
+}
+.carrito-contenedor .carrito-listado .carrito-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}
+.carrito-contenedor .carrito-listado .carrito_listado-cantidad {
+  width: 25%;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  color: black;
+}
+.carrito-contenedor .carrito-listado .carrito_listado-btnCancelar {
+  border-radius: 5px;
+  width: 50px;
+  height: auto;
+}
+.carrito-contenedor .carrito-listado .btn-container {
+  display: flex;
+  justify-content: center;
+}
+.carrito-contenedor .carrito-resumen {
   border: 1px solid white;
-  border-radius: 1px;
+  border-radius: 20px;
   width: auto;
   padding: 15px;
+}
+.carrito-contenedor .carrito-resumen h3 {
+  text-align: center;
+}
+.carrito-contenedor .carrito-resumen .carrito_resumen-tipoEnvio {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.carrito-contenedor .carrito-resumen p {
+  margin: 10px;
+}
+.carrito-contenedor .carrito-resumen .btn-container {
+  display: flex;
+  justify-content: center;
+}
+.carrito-contenedor .carrito-resumen .btn-container .btn-container-btn {
+  color: white;
+}
+
+@media (min-width: 845px) and (max-width: 1299px) {
+  .carrito-pequeño {
+    display: none;
+  }
+  .carrito-contenedor {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .carrito-contenedor .carrito-listado {
+    width: 100%;
+    display: flex;
+    text-align: center;
+  }
+  .carrito-contenedor .carrito-listado tr {
+    padding: 2px;
+    margin: 2px;
+  }
+}
+@media (max-width: 844px) {
+  .carrito-contenedor {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .carrito-contenedor .carrito-table {
+    display: none;
+  }
+  .carrito-contenedor .carrito-pequeño {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .carrito-contenedor .carrito-pequeño .carrito_pequeño-articulo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid wheat;
+    margin-top: 10px;
+  }
+  .carrito-contenedor .carrito-pequeño .carrito_pequeño-articulo .carrito-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+  }
+  .carrito-contenedor .carrito-pequeño .carrito_pequeño-btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .carrito-contenedor .carrito-pequeño .carrito_pequeño-btns input {
+    width: 60px;
+    background-color: #f2f2f2;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

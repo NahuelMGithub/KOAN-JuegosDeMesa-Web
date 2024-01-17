@@ -25,19 +25,7 @@ Clase 17  Video: /
 ---------------------Para la web:
 
 
-carrito:
-    - darle bordes
-    -Meter algun fondo
-    -Estruturar mejor
 
-
-
-
-Particulares
-
-Sesion:
-    - retocar margin
-    - ver por q falla al cargar
 
 
 //------------------- LISTOS:----------------------------------------------------------------
@@ -75,6 +63,10 @@ Tiendas:
     - Estructura de tienda---------LISTO
     -Fondo-------------------------LISTO
 
+carrito:
+    - darle bordes
+    -Meter algun fondo
+    -Estruturar mejor
 
 Nosotros:
     - contendio---------LISTO
@@ -99,6 +91,21 @@ alt de las imagenes, deben tener una descripción breve, no puede estar vacía n
 
 
 
+
+
+
+Particulares
+
+carrito: btnes con misma estetica
+
+Sesion:
+    - retocar margin
+    - ver por q falla al cargar
+
+Usar Grid para hacer plancha de juegos 
+EN juegos Cambiar los botones, son orribles.
+
+Estetica unificada de botones (detalle)
 
 
 

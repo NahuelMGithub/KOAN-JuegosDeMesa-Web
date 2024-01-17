@@ -119,10 +119,10 @@
   </header>
 
  <main class="main">
- <section class="carrito-contenedor"> 
+ <section class="carrito-fondo"> 
     <h2>Carrito de compras</h2>
 
-    <article class="carrito">
+    <article class="carrito-contenedor">
       <section class="carrito-listado">
          <table class="carrito-table" >
               <thead >
@@ -133,24 +133,42 @@
                       <th>Cantidad</th>
                       <th></th>
                   </tr>
-                                    <tr >
-                      <th>Imagen</th>
-                      <th>Nombre</th>
-                      <th>Precio</th>
-                      <th>Cantidad</th>
-                      <th></th>
-                  </tr>
-                </tr>
-                <tr >
-  <th>Imagen</th>
-  <th>Nombre</th>
-  <th>Precio</th>
-  <th>Cantidad</th>
-  <th></th>
-</tr>
+                 <tr >
+                      <th><img  class="carrito-img" src="../images/Juegos/juegos Venta/CyB2.jpg"></th>
+                      <th>C&B</th>
+                      <th>$10.200</th>
+                      <th><input class="carrito_listado-cantidad" type="number" min="1" placeholder="1"></th>
+                      <th> <button class="carrito_listado-btnCancelar" >X</button> </th>
+                       </tr>
+                
+                       <tr >
+                        <th><img  class="carrito-img" src="../images/Juegos/juegos Venta/laBalsa1.jpg"></th>
+                        <th>La Balsa</th>
+                        <th>$9.890</th>
+                        <th><input class="carrito_listado-cantidad" type="number" min="1" placeholder="1"></th>
+                        <th> <button class="carrito_listado-btnCancelar" >X</button> </th>
+                         </tr>
+
               </thead>
               <tbody></tbody>
           </table>
+          <article class="carrito-pequeño" >
+            <article class="carrito_pequeño-articulo articulo1"> 
+              <h4>C&B</h4>
+              <img  class="carrito-img" src="../images/Juegos/juegos Venta/CyB2.jpg">
+              
+              <p>$10.200</p>
+             <section class="carrito_pequeño-btns">  <input class="carrito_listado-cantidad" type="number" min="1" placeholder="1"> <button class="carrito_listado-btnCancelar" >X</button> </section>
+            </article>
+            <article class="carrito_pequeño-articulo articulo1"> 
+              <h4>La Balsa</h4>
+              <img  class="carrito-img" src="../images/Juegos/juegos Venta/laBalsa1.jpg">
+              <p>$8.890</p>
+            <section class="carrito_pequeño-btns">  <input class="carrito_listado-cantidad" type="number" min="1" placeholder="1"> <button class="carrito_listado-btnCancelar" >X</button> </p>
+            </article>
+          
+
+          </article>
           <div class="btn-container">
             <input class=" btn" type="submit" value="Agregar cupon ">
           </div>
@@ -160,11 +178,11 @@
 
 
       <section class="carrito-resumen">
-        <p>Total del Carrito</p>
+       
   
         <div class="carrito_resumen-envio">
           <h3>Envio</h3>
-          <form>
+          <form class="carrito_resumen-tipoEnvio">
             <fieldset>
               <legend>Selecciona una opción de envío:</legend>
               <input type="radio" id="envio-estandar" name="opciones-envio" value="envio-estandar">
@@ -174,15 +192,18 @@
               <label for="envio-express">Envío a una sucursal del correo</label><br>
               
               <input type="radio" id="envio-urgente" name="opciones-envio" value="envio-urgente">
-              <label for="envio-urgente">Envío a una dirección[on</label><br>
-              <p>Total con envio</p>
+              <label for="envio-urgente">Envío a una dirección</label><br>
+              
             </fieldset>
-            <div class="btn-container">
-              <input class="btn_container-btn btn" type="submit" value="Comprar ">
-            </div>
+           
  
       
           </form>
+          <p>Total del Carrito: </p>
+          <p>Total con envio :</p>
+          <div class="btn-container">
+            <input class="btn_container-btn btn" type="submit" value="Comprar ">
+          </div>
         </div>
        
 
