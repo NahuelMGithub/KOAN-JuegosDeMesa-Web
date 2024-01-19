@@ -1,0 +1,31 @@
+//------------------  Todos los botones mantienen esta estetica
+
+.btnKoan{
+    background-color: rgb(50, 50, 65);
+    color: rgb(236, 215, 215);
+    border-radius: 10px;
+     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+     a{
+        color: rgb(236, 215, 215);
+        text-decoration: none;
+     }
+     &:hover{
+        background-color: #2c3e50;
+        filter: brightness(1.2); 
+    }
+  }
+
+//------------------ links que te llevan a paginas de socios
+
+  .linkASocios{
+
+      margin: 30px;
+     border-radius: 10px; 
+     color: black; 
+    text-decoration: none;
+  
+}   .linkASocios:hover{
+    color: white;
+    transition: 0.5s;
+}
+

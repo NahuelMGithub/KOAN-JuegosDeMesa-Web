@@ -71,6 +71,8 @@ carrito:
 Nosotros:
     - contendio---------LISTO
     -Agragar fotos particulares y efectos -- tal vez luego, asi me gusta
+    
+Estetica unificada de botones 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -79,34 +81,26 @@ Nosotros:
 
 -------------------------------------------Falta:
 
-carrito
-Sesion
+
+
 SEO
-CCS de mas borrar
+
 alt de las imagenes, deben tener una descripción breve, no puede estar vacía ni con palabras repetidas.
 
 
 
+Todos los input y label>
+    unificar estetica   
+    alinear
+    longitud del campo
+    imagenes: correrir el alt
 
 
 
-
-
-
-
-Particulares
-
-carrito: btnes con misma estetica
 
 Sesion:
     - retocar margin
     - ver por q falla al cargar
+    
 
 Usar Grid para hacer plancha de juegos 
-EN juegos Cambiar los botones, son orribles.
-
-Estetica unificada de botones (detalle)
-
-
-
-
