@@ -83,24 +83,5 @@ Estetica unificada de botones
 
 
 
-SEO
-
-alt de las imagenes, deben tener una descripción breve, no puede estar vacía ni con palabras repetidas.
-
-
-
-Todos los input y label>
-    unificar estetica   
-    alinear
-    longitud del campo
-    imagenes: correrir el alt
-
-
-
-
-Sesion:
-    - retocar margin
-    - ver por q falla al cargar
-    
 
 Usar Grid para hacer plancha de juegos 
