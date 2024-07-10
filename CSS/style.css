@@ -318,6 +318,29 @@ Creo que lo manejo todo desde boostrap
     flex-direction: column;
   }
 }
+.juegosBoxs {
+  min-height: 150px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.juegoEspecificaciones {
+  justify-content: center;
+}
+
+.juegoDetalles {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .contenedor-eventos {
   display: flex;
   align-items: center;

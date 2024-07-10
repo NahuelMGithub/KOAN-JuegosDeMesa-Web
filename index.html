@@ -22,9 +22,9 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 
-<!-- scroll animations AOS -->
+  <!-- scroll animations AOS -->
 
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- link para css creado por mi. -->
   <link rel="stylesheet" href="CSS/style.css">
@@ -35,11 +35,13 @@
 
 
 
-<!--METAS-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--METAS-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="desciption" content="Explora nuestro universo de juegos de mesa: títulos listos, prototipos, redes sociales y eventos imperdibles en KOAN">
-<meta name="keywords" content="Juegos de mesa, Editorial de juegos, Prototipos de juegos, Eventos de juegos, Mundo de KOAN, Juegos de mesa nuevos, Juegos,  lúdicas, KOAN">
+  <meta name="desciption"
+    content="Explora nuestro universo de juegos de mesa: títulos listos, prototipos, redes sociales y eventos imperdibles en KOAN">
+  <meta name="keywords"
+    content="Juegos de mesa, Editorial de juegos, Prototipos de juegos, Eventos de juegos, Mundo de KOAN, Juegos de mesa nuevos, Juegos,  lúdicas, KOAN">
 
 </head>
 
@@ -47,10 +49,9 @@
 
   <header id="header">
 
-    <!-- Nav Superior -->
 
 
-    <nav id="navSuperior" class="navbar navbar-expand-lg ">
+    <nav id="navSuperior" class="navbar navbar-expand-lg  navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img id="navSuperior-imagenLogo" src="icons/icono.jpg" alt="Logo" width="30" height="24"
@@ -63,14 +64,26 @@
         </button>
         <div class="collapse navbar-collapse " id="navbarNavDropdown">
           <ul class="navbar-nav">
-   <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Juegos
               </a>
               <ul id="navSuperior-ul" class="dropdown-menu">
-                <li><a class="dropdown-item" href="pages/2-juegos.html">Juegos en venta</a></li>
-                <li><a class="dropdown-item" href="pages/2-juegos.html#juegosPrototipos">Prototipos</a></li>
+                <li><a class="dropdown-item" href="pages/juegos/juegos-C&B.html">Civilización y barbarie</a></li>
+                <li><a class="dropdown-item" href="pages/juegos/juegos-laBalsa.html">La Balsa</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Prototipos
+              </a>
+              <ul id="navSuperior-ul" class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Combate Orbital</a></li>
+                <li><a class="dropdown-item" href="#">Psiquis</a></li>
+                <li><a class="dropdown-item" href="#">Laberintos: Minotauros</a></li>
+                <li><a class="dropdown-item" href="#">Cronopatía</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -96,93 +109,93 @@
   <main class="main">
 
     <section class="resumenDeJuegos">
-  
-      <div class="resumen-seccion"> 
 
-      <div class="card">
-        <div class="face front">
+      <div class="resumen-seccion">
+
+        <div class="card">
+          <div class="face front">
             <img src="images/Juegos/juegos Venta/CyB1.jpg" alt="C&B Portada">
             <h3>C&B</h3>
-             </div>
-        <div class="face back"> 
+          </div>
+          <div class="face back">
             <h3>C&B</h3>
             <p> C&B ya salio a la vente, encontralo en cualquiera de nuestras tiendas</p>
-            <div class="link"><a href="pages/6-tiendas.html">Detalles</a></div>
+            <div class="link"><a href="pages/juegos/juegos-C&B.html">Detalles</a></div>
+          </div>
         </div>
-    </div>
 
-    <div class="card">
-      <div class="face front">
-          <img src="images/Juegos/juegos Venta/laBalsa1.jpg" alt="La Balsa Portada">
-          <h3>Juegos</h3>
-           </div>
-      <div class="face back"> 
-          <h3>Juegos</h3>
-          <p>La balsa y muchos otros juegos te esperan para divertirte </p>
-          <div class="link"><a href="pages/2-juegos.html">Detalles</a></div>
+        <div class="card">
+          <div class="face front">
+            <img src="images/Juegos/juegos Venta/laBalsa1.jpg" alt="La Balsa Portada">
+            <h3>La Balsa</h3>
+          </div>
+          <div class="face back">
+            <h3>La Balsa</h3>
+            <p>La balsa y muchos otros juegos te esperan para divertirte </p>
+            <div class="link"><a href="pages/juegos/juegos-laBalsa.html">Detalles</a></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front">
+            <img src="images/Sin Reserva.jpeg" alt="Prototipo Sin Reserva Portada">
+            <h3>Prototipos</h3>
+          </div>
+          <div class="face back">
+            <h3>Prototipos</h3>
+            <p>Descubri los proximos juegos y enterate de sus lanzamientos </p>
+            <div class="link"><a href="#">Detalles</a></div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="face front">
-          <img src="images/Sin Reserva.jpeg" alt="Prototipo Sin Reserva Portada">
-          <h3>Prototipos</h3>
-           </div>
-      <div class="face back"> 
-          <h3>Prototipos</h3>
-          <p>Descubri los proximos juegos y enterate de sus lanzamientos </p>
-          <div class="link"><a href="pages/2-juegos.html">Detalles</a></div>
-      </div>
-    </div>
-  </div>
-  <div class="resumen-seccion">  
-    <div class="card">
-      <div class="face front">
-          <img src="images/homo2.jpg" alt="Gente jugando en un torneo">
-          <h3>Torenos</h3>
-           </div>
-      <div class="face back"> 
-          <h3>Torneos</h3>
-          <p>Veni a participar de alguno de nuestros torneos y participá por increibles premios</p>
-          <div class="link"><a href="pages/4-contacto.html">Detalles</a></div>
-      </div>
-  </div>
-  <div class="card">
-    <div class="face front">
-        <img src="images/homo1.jpg" alt="Tienda de Homo Lundens"> 
-        <h3>Neva tienda</h3>
-         </div>
-    <div class="face back"> 
-        <h3>Neva tienda</h3>
-        <p>Nos alegra contar con una nueva tienda donde encontrar nuestros juegos.</p>
-        <div class="link"><a href="pages/6-tiendas.html">Detalles</a></div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="face front">
-        <img src="images/enjm-24-1.jpg" alt="Banner del ENJM 2024">
-        <h3>Eventos</h3>
-         </div>
-    <div class="face back"> 
-        <h3>Eventos</h3>
-        <p>El ENJM 2024 se realizara en la ciudad feliz. Te esperamos</p>
-        <div class="link"><a href="pages/3-agenda.html">Detalles</a></div>
-    </div>
-  </div>
-</class=>
-    
-    
+      <div class="resumen-seccion">
+        <div class="card">
+          <div class="face front">
+            <img src="images/homo2.jpg" alt="Gente jugando en un torneo">
+            <h3>Nosotros</h3>
+          </div>
+          <div class="face back">
+            <h3>Nosotros</h3>
+            <p>Creamos juegos que nos gusta jugar</p>
+            <div class="link"><a href="pages/5-nosotros.html">Detalles</a></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front">
+            <img src="images/homo1.jpg" alt="Tienda de Homo Lundens">
+            <h3>Tiendas</h3>
+          </div>
+          <div class="face back">
+            <h3>Tiendas</h3>
+            <p>Nos alegra contar con una nueva tienda donde encontrar nuestros juegos.</p>
+            <div class="link"><a href="pages/6-tiendas.html">Detalles</a></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face front">
+            <img src="images/enjm-24-1.jpg" alt="Banner del ENJM 2024">
+            <h3>Eventos</h3>
+          </div>
+          <div class="face back">
+            <h3>Eventos</h3>
+            <p>El ENJM 2024 se realizara en la ciudad feliz. Te esperamos</p>
+            <div class="link"><a href="pages/3-agenda.html">Detalles</a></div>
+          </div>
+        </div>
+        </class=>
+
+
     </section>
-    
+
 
 
     <div class="home_central">
-      <img src="images/Koan.png" class="home_central-img" alt="Banner de KOAN" >
+      <img src="images/Koan.png" class="home_central-img" alt="Banner de KOAN">
     </div>
 
   </main>
 
   <footer class="footer container-fluid">
-    <div class="row p-5 pb-4 bg-black">
+    <div class="row p-5 pb-4 bg-black ">
       <article class="col-xs-12 col-md-6 col-lg-3">
         <p class="h3">KOAN Juegos </p>
         <div class="mb-2">
@@ -202,21 +215,23 @@
       <article class="col-xs-12 col-md-6 col-lg-3">
         <p class="h5 mb-3">Redes</p>
         <div class="mb-2">
-          <a class="text-decoration-none text-secondary" href="https://www.instagram.com/koan.juegos/?hl=es"> Instagram</a>
+          <a class="text-decoration-none text-secondary" href="https://www.instagram.com/koan.juegos/?hl=es">
+            Instagram</a>
         </div>
         <div class="mb-2">
-          <a class="text-decoration-none text-secondary" href="https://discord.com/channels/1028021901416730725/1028021901416730728"> Discord</a>
+          <a class="text-decoration-none text-secondary"
+            href="https://discord.com/channels/1028021901416730725/1028021901416730728"> Discord</a>
         </div>
       </article>
       <article class="col-xs-12 col-md-6 col-lg-3">
         <p class="h5 mb-3">Contacto</p>
         <div class="mb-2">
-          <a class="text-decoration-none text-secondary" href="pages/4-contacto.html"> Correo electronico</a>
+          <a class="text-decoration-none text-secondary"> koan.juegos@gmail.com</a>
         </div>
 
       </article>
       <article class="col-xs-12">
-        <p class="text-white text-center pt-3"> Copyrigth - Todos los derechos reservados 2023</p>
+        <p class="text-white text-center pt-3"> Copyrigth - Todos los derechos reservados 2024 par KOAN </p>
       </article>
     </div>
 
@@ -233,11 +248,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-  <!-- Scroll animation AOS-->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+<!-- Scroll animation AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html>
-
